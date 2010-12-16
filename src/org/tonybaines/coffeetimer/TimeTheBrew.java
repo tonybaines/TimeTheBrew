@@ -23,7 +23,7 @@ public class TimeTheBrew extends Activity {
     BEGIN, RUNNING, STOPPING, COMPLETE
   }
 
-  private static final int DURATION_MS = 1000;// (1000 * 60 * 4);
+  private static final int DURATION_MS = (1000 * 60 * 4);
   private ProgressBar mProgress;
   private State state = State.BEGIN;
 
